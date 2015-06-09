@@ -1,0 +1,57 @@
+﻿@model IEnumerable<CEvery.ViewModels.IndicatorStatistics>
+
+@{
+    ViewBag.Title = "Company Statistics";
+}
+
+<h2>Company Statistics</h2>
+
+<table>
+    <h4>Report 1 - Employee Vs Indicator</h4>
+    <tr style="border: double; padding: 1px">
+        <th>
+            Employee &nbsp;
+        </th>
+        <th>
+            Indicator
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr style="border: double; padding: 1px">
+            <td>
+                @Html.DisplayFor(modelItem => item.EmployeeName)
+            </td>
+            <td>
+                @item.IndicatorCount
+            </td>
+        </tr>
+    }
+</table>
+<br/>
+<br/>
+<table>
+    <h4>Report 2 - Indicator Vs Count</h4>
+    <tr style="border: double; padding: 1px">
+        <th>
+            Indicator &nbsp;
+        </th>
+        <th>
+            Count
+        </th>
+    </tr>
+
+    @foreach (var item in ViewBag.IndicatorCount)
+    {
+        <tr style="border: double; padding: 1px">
+            <td>
+                @*@Html.DisplayFor(modelItem => item.Indicator)*@
+                @item.Indicator
+            </td>
+            <td>
+                @item.IndicatorCount
+            </td>
+        </tr>
+    }
+</table>

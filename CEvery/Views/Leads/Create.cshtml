@@ -1,0 +1,192 @@
+﻿@using Microsoft.AspNet.Identity
+@model CEvery.Models.Lead
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Create Lead</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div id="container1">
+            <div id="col1">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.CreatedDate, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(model => model.CreatedDate, new { Value = DateTime.Now.ToString("dd MMM yyyy"), @readonly = "readonly" })
+                        @*@Html.ValidationMessageFor(model => model.CreatedDate)*@
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.CustomerName, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @*@Html.EditorFor(model => model.CustomerName)*@
+                        @Html.DropDownList("CustomerName", new SelectList(ViewBag.CustomerList, "Text", "Value"))
+                        @*@Html.ValidationMessageFor(model => model.CustomerName)*@
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Indicator, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @*@Html.EditorFor(model => model.Indicator)*@
+                        @Html.DropDownList("Indicator", new SelectList(ViewBag.IndicatorList, "Text", "Value"))
+                        @*@Html.ValidationMessageFor(model => model.Indicator)*@
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ProductName, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @*@Html.EditorFor(model => model.ProductName)*@
+                        @Html.DropDownList("ProductName", new SelectList(ViewBag.ProductList, "Text", "Value"))
+                        @Html.ValidationMessageFor(model => model.ProductName)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Value, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Value)
+                        @Html.ValidationMessageFor(model => model.Value)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.DocumentPath, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.DocumentPath)
+                        @*@Html.ValidationMessageFor(model => model.DocumentPath)*@
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.EmployeeName, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @*@Html.EditorFor(model => model.EmployeeName)*@
+                        @Html.TextBoxFor(model => model.EmployeeName, new { Value = User.Identity.GetUserName(), @readonly = "readonly" })
+                        @*@Html.ValidationMessageFor(model => model.EmployeeName)*@
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ModifiedDate, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(model => model.ModifiedDate, new { Value = DateTime.Now.ToString("dd MMM yyyy"), @readonly = "readonly" })
+                        @*@Html.ValidationMessageFor(model => model.ModifiedDate)*@
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Comments, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Comments)
+                        @Html.ValidationMessageFor(model => model.Comments)
+                    </div>
+                </div>
+
+                <hr />
+                <b>Customer Info</b>
+                <br />
+                <br />
+                <div class="form-group">
+                    @Html.LabelFor(model => model.VisitedDate, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(model => model.VisitedDate, new { @class = "date-picker txtDisableKeyPress" })
+                        @Html.ValidationMessageFor(model => model.VisitedDate)
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.CustomerDepartment, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.CustomerDepartment)
+                        @*@Html.ValidationMessageFor(model => model.Comments)*@
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.CustomerDesignation, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.CustomerDesignation)
+                        @*@Html.ValidationMessageFor(model => model.Comments)*@
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.CustomerContactName, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.CustomerContactName)
+                        @*@Html.ValidationMessageFor(model => model.Comments)*@
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.CustomerContactNumber, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.CustomerContactNumber)
+                        @*@Html.ValidationMessageFor(model => model.Comments)*@
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.CustomerContactEmailId, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.CustomerContactEmailId)
+                        @*@Html.ValidationMessageFor(model => model.Comments)*@
+                    </div>
+                </div>
+
+                <hr />
+                <b>Quote Info</b>
+                <br />
+                <br />
+                <div class="form-group">
+                    @Html.LabelFor(model => model.IsQuoteStage, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(x => x.IsQuoteStage)
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.QuotationNumber, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(model => model.QuotationNumber, new { Value = 0 })
+                        @Html.ValidationMessageFor(model => model.QuotationNumber)
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.QuoteDate, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(model => model.QuoteDate, new { @class = "date-picker txtDisableKeyPress" })
+                        @Html.ValidationMessageFor(model => model.QuoteDate)
+                    </div>
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.PageContent)
+                    @Html.ValidationMessageFor(model => model.PageContent)
+                </div>
+
+            </div>
+        </div>
+        <br />
+        <div class="form-group" style="margin-left:1px">
+            @*<div class="col-md-offset-2 col-md-10" style="float:left">*@
+                <input type="submit" value="Create" class="btn btn-default" />
+            @*</div>*@
+        </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+

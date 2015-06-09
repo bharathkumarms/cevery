@@ -1,0 +1,142 @@
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\CEvery.dll.config
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\CEvery.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\CEvery.pdb
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Antlr3.Runtime.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\EntityFramework.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\EntityFramework.SqlServer.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Microsoft.Owin.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Microsoft.Owin.Security.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Newtonsoft.Json.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Owin.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\PagedList.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\PagedList.Mvc.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\System.Web.Helpers.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\System.Web.Mvc.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\System.Web.Optimization.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\System.Web.Razor.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\System.Web.WebPages.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\System.Web.WebPages.Razor.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\WebGrease.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\PagedList.xml
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\PagedList.Mvc.xml
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\System.Web.Helpers.xml
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\System.Web.Mvc.xml
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\System.Web.Optimization.xml
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\System.Web.Razor.xml
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\System.Web.WebPages.xml
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\System.Web.WebPages.Razor.xml
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Newtonsoft.Json.xml
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Antlr3.Runtime.pdb
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\EntityFramework.xml
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\EntityFramework.SqlServer.xml
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Microsoft.Owin.xml
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Microsoft.Owin.Security.xml
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\obj\Debug\CEvery.dll
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\obj\Debug\CEvery.pdb
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\obj\Debug\CEvery.Migrations.InitialCreate.resources
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\obj\Debug\CEvery.csproj.GenerateResource.Cache
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\obj\Debug\CEvery.Migrations.QuoteNumberNotMandatory.resources
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\obj\Debug\CEvery.Migrations.CustomerDetails.resources
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\obj\Debug\CEvery.Migrations.VisitedDateNullable.resources
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\obj\Debug\CEvery.Migrations.AutoGenAppNo.resources
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\obj\Debug\CEvery.Migrations.AutoGenAppNo1.resources
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\obj\Debug\CEvery.Migrations.AutoGenAppNoRename.resources
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\obj\Debug\CEvery.Migrations.ProductMaster.resources
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\obj\Debug\CEvery.csprojResolveAssemblyReference.cache
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\obj\Debug\CEvery.Migrations.RTB.resources
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\obj\Debug\CEvery.Migrations.RTBNotMandatory_QuoteDate.resources
+C:\Users\Bharath\documents\visual studio 2013\Projects\CEvery\CEvery\obj\Debug\CEvery.Migrations.IsQuoteStage.resources
+C:\code\CEvery\CEvery\bin\CEvery.dll.config
+C:\code\CEvery\CEvery\bin\CEvery.dll
+C:\code\CEvery\CEvery\bin\CEvery.pdb
+C:\code\CEvery\CEvery\bin\Antlr3.Runtime.dll
+C:\code\CEvery\CEvery\bin\EntityFramework.dll
+C:\code\CEvery\CEvery\bin\EntityFramework.SqlServer.dll
+C:\code\CEvery\CEvery\bin\Microsoft.AspNet.Identity.Core.dll
+C:\code\CEvery\CEvery\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\code\CEvery\CEvery\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\code\CEvery\CEvery\bin\Microsoft.Owin.dll
+C:\code\CEvery\CEvery\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\code\CEvery\CEvery\bin\Microsoft.Owin.Security.Cookies.dll
+C:\code\CEvery\CEvery\bin\Microsoft.Owin.Security.dll
+C:\code\CEvery\CEvery\bin\Microsoft.Owin.Security.Facebook.dll
+C:\code\CEvery\CEvery\bin\Microsoft.Owin.Security.Google.dll
+C:\code\CEvery\CEvery\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\code\CEvery\CEvery\bin\Microsoft.Owin.Security.OAuth.dll
+C:\code\CEvery\CEvery\bin\Microsoft.Owin.Security.Twitter.dll
+C:\code\CEvery\CEvery\bin\Microsoft.Web.Infrastructure.dll
+C:\code\CEvery\CEvery\bin\Newtonsoft.Json.dll
+C:\code\CEvery\CEvery\bin\Owin.dll
+C:\code\CEvery\CEvery\bin\PagedList.dll
+C:\code\CEvery\CEvery\bin\PagedList.Mvc.dll
+C:\code\CEvery\CEvery\bin\System.Web.Helpers.dll
+C:\code\CEvery\CEvery\bin\System.Web.Mvc.dll
+C:\code\CEvery\CEvery\bin\System.Web.Optimization.dll
+C:\code\CEvery\CEvery\bin\System.Web.Razor.dll
+C:\code\CEvery\CEvery\bin\System.Web.WebPages.Deployment.dll
+C:\code\CEvery\CEvery\bin\System.Web.WebPages.dll
+C:\code\CEvery\CEvery\bin\System.Web.WebPages.Razor.dll
+C:\code\CEvery\CEvery\bin\WebGrease.dll
+C:\code\CEvery\CEvery\bin\PagedList.xml
+C:\code\CEvery\CEvery\bin\PagedList.Mvc.xml
+C:\code\CEvery\CEvery\bin\System.Web.Helpers.xml
+C:\code\CEvery\CEvery\bin\System.Web.Mvc.xml
+C:\code\CEvery\CEvery\bin\System.Web.Optimization.xml
+C:\code\CEvery\CEvery\bin\System.Web.Razor.xml
+C:\code\CEvery\CEvery\bin\System.Web.WebPages.xml
+C:\code\CEvery\CEvery\bin\System.Web.WebPages.Deployment.xml
+C:\code\CEvery\CEvery\bin\System.Web.WebPages.Razor.xml
+C:\code\CEvery\CEvery\bin\Newtonsoft.Json.xml
+C:\code\CEvery\CEvery\bin\Antlr3.Runtime.pdb
+C:\code\CEvery\CEvery\bin\EntityFramework.xml
+C:\code\CEvery\CEvery\bin\EntityFramework.SqlServer.xml
+C:\code\CEvery\CEvery\bin\Microsoft.AspNet.Identity.Core.xml
+C:\code\CEvery\CEvery\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\code\CEvery\CEvery\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\code\CEvery\CEvery\bin\Microsoft.Owin.xml
+C:\code\CEvery\CEvery\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\code\CEvery\CEvery\bin\Microsoft.Owin.Security.xml
+C:\code\CEvery\CEvery\bin\Microsoft.Owin.Security.Facebook.xml
+C:\code\CEvery\CEvery\bin\Microsoft.Owin.Security.Cookies.xml
+C:\code\CEvery\CEvery\bin\Microsoft.Owin.Security.OAuth.xml
+C:\code\CEvery\CEvery\bin\Microsoft.Owin.Security.Google.xml
+C:\code\CEvery\CEvery\bin\Microsoft.Owin.Security.Twitter.xml
+C:\code\CEvery\CEvery\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\code\CEvery\CEvery\obj\Debug\CEvery.csprojResolveAssemblyReference.cache
+C:\code\CEvery\CEvery\obj\Debug\CEvery.Migrations.InitialCreate.resources
+C:\code\CEvery\CEvery\obj\Debug\CEvery.Migrations.QuoteNumberNotMandatory.resources
+C:\code\CEvery\CEvery\obj\Debug\CEvery.Migrations.CustomerDetails.resources
+C:\code\CEvery\CEvery\obj\Debug\CEvery.Migrations.VisitedDateNullable.resources
+C:\code\CEvery\CEvery\obj\Debug\CEvery.Migrations.AutoGenAppNo.resources
+C:\code\CEvery\CEvery\obj\Debug\CEvery.Migrations.AutoGenAppNo1.resources
+C:\code\CEvery\CEvery\obj\Debug\CEvery.Migrations.AutoGenAppNoRename.resources
+C:\code\CEvery\CEvery\obj\Debug\CEvery.Migrations.ProductMaster.resources
+C:\code\CEvery\CEvery\obj\Debug\CEvery.Migrations.RTB.resources
+C:\code\CEvery\CEvery\obj\Debug\CEvery.Migrations.RTBNotMandatory_QuoteDate.resources
+C:\code\CEvery\CEvery\obj\Debug\CEvery.Migrations.IsQuoteStage.resources
+C:\code\CEvery\CEvery\obj\Debug\CEvery.csproj.GenerateResource.Cache
+C:\code\CEvery\CEvery\obj\Debug\CEvery.dll
+C:\code\CEvery\CEvery\obj\Debug\CEvery.pdb

@@ -1,0 +1,177 @@
+﻿@model CEvery.Models.Lead
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Lead</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ApplicationNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ApplicationNo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Indicator)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Indicator)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Value)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Value)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DocumentPath)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DocumentPath)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EmployeeName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmployeeName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ModifiedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ModifiedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Comments)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Comments)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VisitedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VisitedDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerDepartment)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerDepartment)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerDesignation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerDesignation)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerContactName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerContactName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerContactNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerContactNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerContactEmailId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerContactEmailId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.IsQuoteStage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsQuoteStage)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.QuotationNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QuotationNumber)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.QuoteDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QuoteDate)
+        </dd>
+
+
+    </dl>
+    <div class="editor-label">
+        @Html.LabelFor(model => model.PageContent)
+    </div>
+    <div class="editor-field">
+        @Html.EditorFor(model => model.PageContent)
+        @Html.ValidationMessageFor(model => model.PageContent)
+    </div>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+        <br />
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

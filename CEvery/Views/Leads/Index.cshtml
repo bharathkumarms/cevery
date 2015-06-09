@@ -1,0 +1,110 @@
+﻿@model PagedList.IPagedList<CEvery.Models.Lead>
+@using Microsoft.AspNet.Identity
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Leads";
+}
+
+<h2>Leads</h2>
+
+<p>
+    <span class="glyphicon glyphicon-plus"></span> @Html.ActionLink("Create New", "Create")
+</p>
+
+@using (Html.BeginForm("Index", "Leads", FormMethod.Get))
+{
+    <p>
+        Find by Customer: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+        <input type="submit" value="Search" />
+        |
+        Indicator: @Html.TextBox("IndicatorSearch", ViewBag.CurrentFilter as string)
+        <input type="submit" value="Search" />
+        |
+        Date: @Html.TextBox("SearchFromString", ViewBag.CurrentFilter as string, new { @class = "date-picker txtDisableKeyPress" })
+        @Html.TextBox("SearchToString", ViewBag.CurrentFilter as string, new { @class = "date-picker txtDisableKeyPress" })
+        <input type="submit" value="SearchByDate" />
+    </p>
+    
+    @*<p>
+        
+    </p>*@
+    
+    @*<p>
+        
+    </p>*@
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.First().ApplicationNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().CustomerName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().QuotationNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().ProductName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().Value)
+        </th>
+        @if(User.Identity.GetUserName().Equals("ramesh")){
+        <th>
+            @Html.ActionLink("EmployeeName", "Index", new { sortOrder = ViewBag.NameSortParm, currentFilter = ViewBag.CurrentFilter })
+        </th>
+        }
+        <th>
+            @Html.ActionLink("ModifiedDate", "Index", new { sortOrder = ViewBag.DateSortParm, currentFilter = ViewBag.CurrentFilter })
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model)
+{
+
+    <tr style="background-color: @Html.DisplayFor(modelItem => item.Indicator)">
+
+        <td>
+            @Html.DisplayFor(modelItem => item.ApplicationNo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.QuotationNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProductName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Value)
+        </td>
+        @if(User.Identity.GetUserName().Equals("ramesh")){
+        <td>
+            @Html.DisplayFor(modelItem => item.EmployeeName)
+        </td>
+        }
+        <td>
+            @Html.DisplayFor(modelItem => item.ModifiedDate)
+        </td>
+        <td>
+            <a href="@Url.Action("Edit", "Leads", new { id = item.ApplicationNo })"><span class="glyphicon glyphicon-pencil"></span></a>
+            <a href="@Url.Action("Details", "Leads", new { id = item.ApplicationNo })"><span class="glyphicon glyphicon-th-list"></span></a>
+            @if(User.Identity.GetUserName().Equals("ramesh")){
+            <a href="@Url.Action("Delete", "Leads", new { id = item.ApplicationNo })"><span class="glyphicon glyphicon-remove"></span></a>
+            }
+        </td>
+    </tr>
+}
+
+</table>
+<br />
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+@Html.PagedListPager(Model, page => Url.Action("Index",
+    new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
